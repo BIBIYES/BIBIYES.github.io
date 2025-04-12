@@ -1,0 +1,3 @@
+var posts=["2025/04/13/MYSQL配置/","2025/04/13/docker安装与卸载/","2025/04/13/apt软件包的使用方法/","2025/04/13/Ubuntu ufw防火墙使用指南/","2025/04/13/frpc的使用方法/","2025/04/13/Caddy 使用指南：从入门到部署单页应用/","2025/04/13/git命令速查表/","2025/04/13/ohmyzsh安装配置指南/","2025/04/13/hello-world/","2025/04/13/关于我的常见配置/","2025/04/13/vim 使用教程/","2025/04/13/权限用户/"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
